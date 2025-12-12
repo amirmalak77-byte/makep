@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(182, 228, 255, 0.581);
+}
+
+
+.active{
+    background-color: rgba(128, 184, 240, 0.541) !important;
+    border-radius: 25px !important;
+
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 285px;
+    gap: 10px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+.header .photo img{
+    width: 100%;
+}
+
+.photoImg{
+   grid-column: 2/3;
+grid-row: span 2 ;
+}
+.header .photoImg img{
+    width: 100%;
+}
