@@ -18,7 +18,7 @@ let x = createBrowserRouter([
     ]
   }
 ],{
-  basename:'MakeUp-Project'
+  basename:'makep'
 })
 
 
