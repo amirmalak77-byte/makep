@@ -24,7 +24,7 @@ useEffect(() => {
   return (
    <>
 
-   <h1 className='text-center bg-info-subtle p-3'>KOSMETIK</h1>
+   <h1 className='text-center bg-info-subtle p-3'>COSMETIK</h1>
    
   <div className="row g-2">
         {allProduct.length > 0 ? (
